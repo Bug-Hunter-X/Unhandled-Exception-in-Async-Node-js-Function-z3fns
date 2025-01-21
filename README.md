@@ -1,0 +1,3 @@
+# Unhandled Exception in Async Node.js
+
+This repository demonstrates a common error in Node.js:  unhandled exceptions within asynchronous operations using `async/await`. The `bug.js` file contains code that reads a file asynchronously but lacks comprehensive error handling, leading to potential silent failures if the file is not found or another error occurs during file reading. The solution, found in `bugSolution.js`, addresses this by implementing a more robust error-handling mechanism.
